@@ -1,0 +1,5 @@
+__pycache__
+njordr.egg-info
+.mypy_cache
+dist
+build
