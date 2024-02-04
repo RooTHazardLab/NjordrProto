@@ -85,7 +85,6 @@ jobs:
 
   deploy_pypi:
     needs: ['lint', 'build']
-    if: startsWith(github.event.ref, 'refs/tags/v')
     environment:
       name: 'pypi-package'
       url: https://pypi.org/project/njordr
